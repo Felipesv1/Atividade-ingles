@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure {
+  overflow: hidden;
+  background-color: #ccc;
+  width: 50%;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+  transition: 1s all;
+  object-fit: cover;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
